@@ -79,7 +79,6 @@ export default {
               this.isShowDialog = false
               this.svg.attr(
                 "transform",
-                // e.transform.translate(this.svgW / 2, this.svgH / 2)
                 e.transform.translate(0, 0)
               );
             })
