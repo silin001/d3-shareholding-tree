@@ -144,6 +144,7 @@ export default {
           return d._children ? "+" : "";
         })
         .on("click", (e, d) => {
+          e.target.innerHTML ==='+' ? e.target.innerHTML ='-' : e.target.innerHTML ='+'
           this.btnClick(d, showtype);
         });
     },
