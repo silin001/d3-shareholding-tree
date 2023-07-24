@@ -1,3 +1,4 @@
+
 <template>
   <div class="EquityChart full">
     <div id="penetrateChart" class="full"></div>
@@ -13,6 +14,7 @@
   </div>
 </template>
 <script>
+// 测试提交111
 import * as $d3 from "d3";
 import html2canvas from "html2canvas";
 import { treeData } from "./js/treeData";
